@@ -8,10 +8,10 @@ import os
 from gpiozero import LED, Button
 
 #defining buttons and LEDs
-PLAYLEDS = (LED(2), LED(3), LED(4), LED(17))
-RECLEDS = (LED(27), LED(22), LED(10), LED(9))
-PLAYBUTTONS = (Button(11), Button(5), Button(6), Button(13))
-RECBUTTONS = (Button(19), Button(26), Button(21), Button(20))
+PLAYLEDS = (LED(15), LED(22), LED(11), LED(16))
+RECLEDS = (LED(4), LED(23), LED(9), LED(13))
+PLAYBUTTONS = (Button(17), Button(24), Button(5), Button(26))
+RECBUTTONS = (Button(14), Button(27), Button(10), Button(12))
 
 #get configuration (audio settings etc.) from file
 settings_file = open('Config/settings.prt', 'r')
