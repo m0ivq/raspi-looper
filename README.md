@@ -1,5 +1,7 @@
-# raspi-looper
-Simple 4 track looper for Raspberry Pi. Uses pyaudio.
+# Mini-Looper (forked from raspi-looper)
+Simple 4 track looper for Raspberry Pi using HiFiBerry DAC+ ADC Hat for audio. Uses pyaudio.
+
+Custom PCB uses POGO pins to avoid the need to solder the HiFiBerry board so keeps your warranty :D
 
 Uses a USB soundcard probably.
 Uses 8 buttons (push-to-connect) and 8 LEDs to trigger and indicate playback and recording on 4 tracks.
